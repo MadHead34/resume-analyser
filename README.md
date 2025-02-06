@@ -35,7 +35,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## Case Study: AI-Powered Resume Analyzer
+## Case Study: AI-Powered Resume Analyser
 
 ## 1. Introduction
 Many job seekers struggle to optimize their resumes for specific job descriptions. Recruiters use ATS (Applicant Tracking Systems) to filter resumes, making it crucial for candidates to tailor their applications.
@@ -54,10 +54,12 @@ This combination ensures fast performance, AI-driven insights, and seamless UX.
 Step 1: Resume Upload & Text Extraction
 Users upload a PDF resume
 pdf-parse extracts text from the file
+
 Step 2: AI Analysis
 User pastes the job description
 Backend sends resume + job description to LangChain-powered AI
 AI provides personalized feedback
+
 Step 3: Displaying Results
 The AI’s response is shown with key improvement suggestions
 Users get insights like keyword matching, missing skills, and formatting tips
